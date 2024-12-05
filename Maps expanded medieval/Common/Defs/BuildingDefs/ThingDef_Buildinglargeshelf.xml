@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_largeshelf_bread</defName>
+        <label>large bread shelf</label>
+        <description>A large bread shelf, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Storage/StackBread</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(4,4)</drawSize>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+		<size>(2,2)</size>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/StackEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,4)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+	    <ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_largeshelf_grain</defName>
+        <label>large grain shelf</label>
+        <description>A large bread shelf, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Storage/StackFlour</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(4,4)</drawSize>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+		<size>(2,2)</size>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/StackEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,4)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+		    <ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_largeshelf_meat</defName>
+        <label>large meat shelf</label>
+        <description>A large meat shelf, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Storage/StackMeat</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(4,4)</drawSize>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+		<size>(2,2)</size>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/StackEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,4)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+			    <ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_largeshelf_cheese</defName>
+        <label>large cheese shelf</label>
+        <description>A large cheese shelf, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Storage/StackCheese</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(4,4)</drawSize>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+		<size>(2,2)</size>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/StackEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,4)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+	<ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_largeshelf_wine</defName>
+        <label>large wine shelf</label>
+        <description>A large wine shelf, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Storage/StackDrug</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(4,4)</drawSize>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+		<size>(2,2)</size>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/StackEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,4)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+		<ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_largeshelf_mead</defName>
+        <label>large mead shelf</label>
+        <description>A large mead shelf, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Storage/StackMead</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(4,4)</drawSize>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+		<size>(2,2)</size>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/StackEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,4)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+	<ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_largeshelf_vegetables</defName>
+        <label>large vegetables shelf</label>
+        <description>A large vegetables shelf, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Storage/StackVegetables</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(4,4)</drawSize>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+		<size>(2,2)</size>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/StackEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,4)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+</Defs>

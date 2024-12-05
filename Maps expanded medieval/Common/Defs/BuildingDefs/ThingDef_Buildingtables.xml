@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_tablemeat</defName>
+        <label>table (meat)</label>
+        <description>A table with meat, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Tents/MarketMeat</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(5,3)</drawSize>
+        </graphicData>
+		<size>(3,1)</size>
+        <costStuffCount>35</costStuffCount>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Furniture/RusticTable1x3_east</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(5,3)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+	    <ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_tabledairy</defName>
+        <label>table (dairy)</label>
+        <description>A table with dairy, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Tents/MarketDairy</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(5,3)</drawSize>
+        </graphicData>
+				<size>(3,1)</size>
+        <costStuffCount>35</costStuffCount>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Furniture/RusticTable1x3_east</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(5,3)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+		    <ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_tablebread</defName>
+        <label>table (bread)</label>
+        <description>A table with bread, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Tents/MarketBread</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(5,3)</drawSize>
+        </graphicData>
+				<size>(3,1)</size>
+        <costStuffCount>35</costStuffCount>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Furniture/RusticTable1x3_east</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(5,3)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+		    <ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_tableherb</defName>
+        <label>table (herb)</label>
+        <description>A table with herbs, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Tents/MarketHerb</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(5,3)</drawSize>
+        </graphicData>
+				<size>(3,1)</size>
+        <costStuffCount>35</costStuffCount>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Furniture/RusticTable1x3_east</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(5,3)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+			    <ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_tableMeleeWeapons</defName>
+        <label>table (weapons)</label>
+        <description>A table with weapons, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Tents/MarketMeleeWeapons</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(5,3)</drawSize>
+        </graphicData>
+				<size>(3,1)</size>
+        <costStuffCount>35</costStuffCount>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Furniture/RusticTable1x3_east</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(5,3)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+				    <ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_tableBow</defName>
+        <label>table (bow)</label>
+        <description>A table with bows, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Tents/MarketBow</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(5,3)</drawSize>
+        </graphicData>
+				<size>(3,1)</size>
+        <costStuffCount>35</costStuffCount>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Furniture/RusticTable1x3_east</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(5,3)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+</Defs>

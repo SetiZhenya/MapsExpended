@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.LootDataDef>
+    <defName>meeletable</defName>
+    <loots>
+      <li>
+        <dataName>meleetable</dataName>
+        <chance>1</chance>
+        <things>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>2~2</count>
+            <thing>DankPyon_MeleeWeapon_Falchion</thing>
+          </li>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <thing>DankPyon_MeleeWeapon_ArmingSword</thing>
+          </li>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>2~2</count>
+            <thing>DankPyon_MeleeWeapon_WoodcuttersAxe</thing>
+          </li>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <thing>DankPyon_MeleeWeapon_Greataxe</thing>
+          </li>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <thing>DankPyon_MeleeWeapon_MilitiaSpear</thing>
+          </li>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <thing>DankPyon_MeleeWeapon_Longaxe</thing>
+          </li>
+        </things>
+      </li>
+    </loots>
+  </QuestEditor_Library.LootDataDef>
+</Defs>

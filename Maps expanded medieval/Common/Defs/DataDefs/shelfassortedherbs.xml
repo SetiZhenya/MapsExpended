@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.LootDataDef>
+    <defName>shelfassortedherbs</defName>
+    <loots>
+      <li>
+        <dataName>shelfassortecherbs</dataName>
+        <chance>1</chance>
+        <things>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>10~10</count>
+            <thing>DankPyon_RawApples</thing>
+          </li>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>10~10</count>
+            <thing>DankPyon_FlyAgaric</thing>
+          </li>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>10~10</count>
+            <thing>MedicineHerbal</thing>
+          </li>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>10~10</count>
+            <thing>DankPyon_Fleawort</thing>
+          </li>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>10~10</count>
+            <thing>DankPyon_Mindwort</thing>
+          </li>
+        </things>
+      </li>
+    </loots>
+  </QuestEditor_Library.LootDataDef>
+</Defs>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.LootDataDef>
+    <defName>grainshelf</defName>
+    <loots>
+      <li>
+        <dataName>grainshelf</dataName>
+        <chance>1</chance>
+        <things>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>100~100</count>
+            <thing>DankPyon_RawWheat</thing>
+          </li>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>300~300</count>
+            <thing>DankPyon_Flour</thing>
+          </li>
+        </things>
+      </li>
+    </loots>
+  </QuestEditor_Library.LootDataDef>
+</Defs>

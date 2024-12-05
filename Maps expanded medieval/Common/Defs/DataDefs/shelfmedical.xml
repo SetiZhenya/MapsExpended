@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.LootDataDef>
+    <defName>shelfmedical</defName>
+    <loots>
+      <li>
+        <dataName>shelfmedical</dataName>
+        <chance>1</chance>
+        <things>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>20~20</count>
+            <thing>DankPyon_HerbalExtract</thing>
+          </li>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>10~10</count>
+            <thing>MedicineHerbal</thing>
+          </li>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>25~25</count>
+            <thing>DankPyon_Honey</thing>
+          </li>
+        </things>
+      </li>
+    </loots>
+  </QuestEditor_Library.LootDataDef>
+</Defs>

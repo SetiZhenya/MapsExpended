@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <QuestEditor_Library.SpecialMapGenerationDef>
+        <defName>seti_MapGeneratioin_gentletribe</defName>
+        <factionOfReplacedSettlement>TribeCivil</factionOfReplacedSettlement>
+        <customMapDataTagsToReplace>
+            <tribal>1</tribal>
+        </customMapDataTagsToReplace>
+    </QuestEditor_Library.SpecialMapGenerationDef>
+	
+	    <QuestEditor_Library.SpecialMapGenerationDef>
+        <defName>seti_MapGeneratioin_roughtribe</defName>
+        <factionOfReplacedSettlement>TribeRough</factionOfReplacedSettlement>
+        <customMapDataTagsToReplace>
+            <tribal>1</tribal>
+        </customMapDataTagsToReplace>
+    </QuestEditor_Library.SpecialMapGenerationDef>
+	
+	    <QuestEditor_Library.SpecialMapGenerationDef>
+        <defName>seti_MapGeneratioin_savagetribe</defName>
+        <factionOfReplacedSettlement>TribeSavage</factionOfReplacedSettlement>
+        <customMapDataTagsToReplace>
+            <tribal>1</tribal>
+        </customMapDataTagsToReplace>
+    </QuestEditor_Library.SpecialMapGenerationDef>
+	
+	    <QuestEditor_Library.SpecialMapGenerationDef>
+        <defName>seti_MapGeneratioin_cannibaltribe</defName>
+        <factionOfReplacedSettlement>TribeCannibal</factionOfReplacedSettlement>
+        <customMapDataTagsToReplace>
+            <tribal>1</tribal>
+        </customMapDataTagsToReplace>
+    </QuestEditor_Library.SpecialMapGenerationDef>
+	
+	    <QuestEditor_Library.SpecialMapGenerationDef>
+        <defName>seti_MapGeneratioin_nudisttribe</defName>
+        <factionOfReplacedSettlement>NudistTribe</factionOfReplacedSettlement>
+        <customMapDataTagsToReplace>
+            <tribal>1</tribal>
+        </customMapDataTagsToReplace>
+    </QuestEditor_Library.SpecialMapGenerationDef>
+
+</Defs>

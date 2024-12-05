@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <QuestEditor_Library.SpecialMapGenerationDef>
+        <defName>seti_MapGeneratioin_neanderthal</defName>
+        <factionOfReplacedSettlement>TribeRoughNeanderthal</factionOfReplacedSettlement>
+        <customMapDataTagsToReplace>
+            <tribal>1</tribal>
+        </customMapDataTagsToReplace>
+    </QuestEditor_Library.SpecialMapGenerationDef>
+	
+	    <QuestEditor_Library.SpecialMapGenerationDef>
+        <defName>seti_MapGeneratioin_impidtribe</defName>
+        <factionOfReplacedSettlement>TribeSavageImpid</factionOfReplacedSettlement>
+        <customMapDataTagsToReplace>
+            <tribal>1</tribal>
+        </customMapDataTagsToReplace>
+    </QuestEditor_Library.SpecialMapGenerationDef>
+
+</Defs>

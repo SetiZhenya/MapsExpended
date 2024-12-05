@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+	<Defs>
+    <ThingDef ParentName="DankPyon_LootBase">
+        <defName>Seti_loot_tribalnoteone</defName>
+        <label>tribal note</label>
+        <description>\n\nraiding party coming
+            \ncalled the hunters home
+            \ntrees are silent
+            \nthe kids are scared
+            \nsent them and the teens
+            \nto a forest secret
+            \nfive of us ran away
+			
+            \n\nhopeless
+		</description>
+        <graphicData>
+            <texPath>Special/TornNote1</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Wood_Drop</soundInteract>
+        <soundDrop>Standard_Drop</soundDrop>
+
+         <statBases>
+            <MaxHitPoints>10</MaxHitPoints>
+            <Mass>0.1</Mass>
+            <Flammability>1</Flammability>
+            <DeteriorationRate>1.0</DeteriorationRate>
+        </statBases>
+
+        <costList>
+            <DankPyon_Paper>10</DankPyon_Paper>
+        </costList>
+
+        <healthAffectsPrice>false</healthAffectsPrice>
+    </ThingDef>
+
+</Defs>

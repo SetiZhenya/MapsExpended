@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.LootDataDef>
+    <defName>tableherbs</defName>
+    <loots>
+      <li>
+        <dataName>tablehearbs</dataName>
+        <chance>1</chance>
+        <things>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>20~20</count>
+            <thing>DankPyon_RawGarlic</thing>
+          </li>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>20~20</count>
+            <thing>MedicineHerbal</thing>
+          </li>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>20~20</count>
+            <thing>DankPyon_RawHerb</thing>
+          </li>
+        </things>
+      </li>
+    </loots>
+  </QuestEditor_Library.LootDataDef>
+</Defs>

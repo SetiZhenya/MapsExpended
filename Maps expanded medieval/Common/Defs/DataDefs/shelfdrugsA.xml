@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.LootDataDef>
+    <defName>shelfdrugsA</defName>
+    <loots>
+      <li>
+        <dataName>shelfdrugsA</dataName>
+        <chance>1</chance>
+        <things>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>10~10</count>
+            <thing>DankPyon_BattleElixir</thing>
+          </li>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>10~10</count>
+            <thing>DankPyon_HappyPowder</thing>
+          </li>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>10~10</count>
+            <thing>SmokeleafJoint</thing>
+          </li>
+        </things>
+      </li>
+    </loots>
+  </QuestEditor_Library.LootDataDef>
+</Defs>

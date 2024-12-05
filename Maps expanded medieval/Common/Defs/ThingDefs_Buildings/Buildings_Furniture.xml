@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Parents -->
+
+	<ThingDef Abstract="True" ParentName="BuildingBase" Name="SetiRR_BuildingBase">
+		<designationCategory>setidecor</designationCategory>
+	</ThingDef>
+	
+
+  <ThingDef Abstract="True" Name="SetiRR_TorchLamp" ParentName="BuildingBase">
+    <category>Building</category>
+    <graphicData>
+      <drawRotated>false</drawRotated>
+      <damageData>
+        <rect>(0.35,0.35,0.3,0.3)</rect>
+      </damageData>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>14</pathCost>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <fillPercent>0.15</fillPercent>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Beauty>2</Beauty>
+    </statBases>
+		<stuffCategories>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
+    <selectable>true</selectable>
+    <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+    <placeWorkers>
+      <li>PlaceWorker_Heater</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>10</glowRadius>
+        <glowColor>(184,136,83,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>3.5</heatPerSecond>
+        <heatPushMaxTemperature>23</heatPushMaxTemperature>
+      </li>
+    </comps>
+    <designationCategory>setidecor</designationCategory>
+  </ThingDef>
+<!-- Lighting -->
+
+	<ThingDef ParentName="SetiRR_BuildingBase" Name="SetiRR_TallTorchBase">
+		<defName>SetiRR_TallTorch</defName>
+		<label>tall torch</label>
+		<description>A torch made of sticks wrapped with rope serving as a primitive form of illumination.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/talltorch/talltorch</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawRotated>false</drawRotated>
+			<damageData>
+				<rect>(0.35,0.35,0.3,0.3)</rect>
+			</damageData>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<uiIconScale>0.5</uiIconScale>
+		<category>Building</category>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>4</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
+		<fillPercent>0.15</fillPercent>
+		<statBases>
+			<Beauty>1</Beauty>
+			<MaxHitPoints>60</MaxHitPoints>
+			<WorkToBuild>600</WorkToBuild>
+			<Mass>0.2</Mass>
+		</statBases>
+		<selectable>true</selectable>
+		<stuffCategories>
+			<li>Woody</li>
+			<li>Metallic</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>25</costStuffCount>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<clearBuildingArea>false</clearBuildingArea>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+		<building>
+			<isEdifice>true</isEdifice>
+		</building>
+		<comps>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>1.0</fuelConsumptionRate>
+				<fuelCapacity>30</fuelCapacity>
+				<initialFuelPercent>1</initialFuelPercent>
+				<fuelFilter>
+				<thingDefs>
+					<li>WoodLog</li>
+				</thingDefs>
+				</fuelFilter>
+				<destroyOnNoFuel>false</destroyOnNoFuel>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			 </li>
+			 <li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>3.5</heatPerSecond>
+				<heatPushMaxTemperature>23</heatPushMaxTemperature>
+			</li>
+				<li Class="CompProperties_Glower">
+					<glowRadius>15</glowRadius>
+					<glowColor>(252,187,113,0)</glowColor>
+				</li>
+				<li Class="CompProperties_FireOverlay">
+					 <fireSize>0.5</fireSize>
+					<offset>(0,0,0.95)</offset>
+				</li>
+		</comps>
+		<designationCategory>setidecor</designationCategory>
+	</ThingDef>
+
+	<ThingDef ParentName="SetiRR_TorchLamp">
+		<defName>SetiRR_StoneTorchOne</defName>
+		<label>stone torch </label>
+		<description>A primitive stone brazier with a candle, typically used in early civilizations to provide ambient light.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/stonetorch/stonetorch1</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawRotated>false</drawRotated>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<uiIconPath>Things/Building/Furniture/stonetorch/stonetorch1</uiIconPath>
+    <uiIconScale>0.85</uiIconScale>
+    <comps>
+      <li Class="CompProperties_FireOverlay">
+        <fireSize>0.25</fireSize>
+        <offset>(0,0,0.8)</offset>
+      </li>
+    </comps>
+	</ThingDef>
+
+  <ThingDef ParentName="SetiRR_TorchLamp">
+		<defName>SetiRR_StoneTorchTwo</defName>
+		<label>stone torch</label>
+		<description>A primitive stone brazier with a candle, typically used in early civilizations to provide ambient light.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/stonetorch/stonetorch2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawRotated>false</drawRotated>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<uiIconPath>Things/Building/Furniture/stonetorch/stonetorch2</uiIconPath>
+    <uiIconScale>0.85</uiIconScale>
+    <comps>
+      <li Class="CompProperties_FireOverlay">
+        <fireSize>0.25</fireSize>
+        <offset>(0,0,0.5)</offset>
+      </li>
+	  </comps> 
+	</ThingDef>
+
+  <ThingDef ParentName="SetiRR_TorchLamp">
+		<defName>SetiRR_StoneTorchThree</defName>
+		<label>stone torch</label>
+		<description>A primitive stone brazier with a candle, typically used in early civilizations to provide ambient light.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/stonetorch/stonetorch3</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawRotated>false</drawRotated>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<uiIconPath>Things/Building/Furniture/stonetorch/stonetorch3</uiIconPath>
+    <uiIconScale>0.85</uiIconScale>
+    <comps>
+      <li Class="CompProperties_FireOverlay">
+        <fireSize>0.25</fireSize>
+        <offset>(0,0,0.057)</offset>
+      </li>
+    </comps>
+	</ThingDef>
+
+  <ThingDef ParentName="SetiRR_TorchLamp">
+		<defName>SetiRR_StoneTorchFour</defName>
+		<label>stone torch</label>
+		<description>A primitive stone brazier with a candle, typically used in early civilizations to provide ambient light.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/stonetorch/stonetorch4</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawRotated>false</drawRotated>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<uiIconPath>Things/Building/Furniture/stonetorch/stonetorch4</uiIconPath>
+    <uiIconScale>0.85</uiIconScale>
+    <comps>
+      <li Class="CompProperties_FireOverlay">
+        <fireSize>0.2</fireSize>
+        <offset>(-0.07,0,0.62)</offset>
+      </li>
+    </comps>
+	</ThingDef>
+
+  <ThingDef ParentName="SetiRR_TorchLamp">
+		<defName>SetiRR_StoneTorchFive</defName>
+		<label>stone torch</label>
+		<description>A primitive stone brazier with a candle, typically used in early civilizations to provide ambient light.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/stonetorch/stonetorch5</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawRotated>false</drawRotated>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<uiIconPath>Things/Building/Furniture/stonetorch/stonetorch5</uiIconPath>
+    <uiIconScale>0.85</uiIconScale>
+    <comps>
+      <li Class="CompProperties_FireOverlay">
+        <fireSize>0.25</fireSize>
+        <offset>(0,0,0.17)</offset>
+      </li>
+    </comps>
+	</ThingDef>
+
+    <ThingDef ParentName="SetiRR_TorchLamp">
+		<defName>SetiRR_HangingTorch</defName>
+		<label>hanging torch</label>
+		<description>A primitive hanging lantern with a candle, providing illumination while suspended in the air.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/hangingtorch/hangingtorch</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawRotated>false</drawRotated>
+      <drawSize>(1.5,1.5)</drawSize>
+      <drawOffset>(0,0,0.6)</drawOffset>
+		</graphicData>
+		<uiIconPath>Things/Building/Furniture/hangingtorch/hangingtorch</uiIconPath>
+    <uiIconScale>0.85</uiIconScale>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<stuffCategories Inherit="False">
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
+    <passability Inherit="False">Standable</passability>
+    <pathCost Inherit="False">8</pathCost>   
+		<building>
+			<isEdifice>false</isEdifice>
+			<canPlaceOverWall>true</canPlaceOverWall>
+		</building>
+    <comps>
+      <li Class="CompProperties_FireOverlay">
+        <fireSize>0.25</fireSize>
+        <offset>(0,0,0.38)</offset>
+      </li>
+    </comps>
+	</ThingDef>
+</Defs>

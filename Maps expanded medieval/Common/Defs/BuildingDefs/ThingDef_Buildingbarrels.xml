@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_largebarrel</defName>
+        <label>large barrel</label>
+        <description>A large barrel, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Storage/BarrelBig</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+			<drawRotated>false</drawRotated>
+		</graphicData>
+        <costStuffCount>35</costStuffCount>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+		<size>(2,2)</size>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+    </ThingDef>
+	
+	    <ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_largegrapebarrel</defName>
+        <label>large grape barrel</label>
+        <description>A large grape barrel, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Storage/BarrelBigGrape</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(4,4)</drawSize>
+			<drawRotated>false</drawRotated>
+		</graphicData>
+        <costStuffCount>35</costStuffCount>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+		<size>(2,2)</size>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+    </ThingDef>
+	
+		    <ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_barrelshelf</defName>
+        <label>barrel shelf</label>
+        <description>A barrel shelf, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Storage/BarrelStack</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5,3)</drawSize>
+		</graphicData>
+		<size>(3,1)</size>
+        <costStuffCount>35</costStuffCount>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+    </ThingDef>
+	
+</Defs>

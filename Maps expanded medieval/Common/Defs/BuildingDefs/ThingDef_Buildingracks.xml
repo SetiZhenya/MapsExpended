@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_racksword</defName>
+        <label>sword rack</label>
+        <description>A rack filled with swords, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+		<size>(2,1)</size>
+        <graphicData>
+			<texPath>Storage/RackFilled2</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/RackEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(3,3)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+	    <ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_rackmixed</defName>
+        <label>mixed rack</label>
+        <description>A rack filled with spears and swords, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Storage/RackFilled1</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+		<size>(2,1)</size>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/RackEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(3,3)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+		    <ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_rackspear</defName>
+        <label>spear rack</label>
+        <description>A rack filled with spears, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Storage/RackFilled3</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+		<size>(2,1)</size>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/RackEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(3,3)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+</Defs>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.LootDataDef>
+    <defName>meatshelf</defName>
+    <loots>
+      <li>
+        <dataName>meatshelf</dataName>
+        <chance>1</chance>
+        <categorys>
+          <li Class="QuestEditor_Library.CQFThingCategoryCount">
+            <count>400~400</count>
+            <category>MeatRaw</category>
+          </li>
+        </categorys>
+      </li>
+    </loots>
+  </QuestEditor_Library.LootDataDef>
+</Defs>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="CustomThingBase">
+        <defName>Seti_loot_sack</defName>
+        <label>sack</label>
+        <description>A cloth sack, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <altitudeLayer>Building</altitudeLayer>
+        <drawGUIOverlay>true</drawGUIOverlay>
+        <useHitPoints>true</useHitPoints>
+        <tickerType>Normal</tickerType>
+        <category>Building</category>
+        <selectable>true</selectable>
+		<size>(1,1)</size>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+        </statBases>
+		<graphicData>
+			<texPath>Storage/SackClosed</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<drawRotated>false</drawRotated>
+		</graphicData>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+    </ThingDef>
+	
+	    <ThingDef ParentName="CustomThingBase">
+        <defName>Seti_loot_bundledsack</defName>
+        <label>bundled sack</label>
+        <description>A cloth bundled sack, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <altitudeLayer>Building</altitudeLayer>
+        <drawGUIOverlay>true</drawGUIOverlay>
+        <useHitPoints>true</useHitPoints>
+        <tickerType>Normal</tickerType>
+        <category>Building</category>
+        <selectable>true</selectable>
+		<size>(1,1)</size>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+        </statBases>
+		<graphicData>
+			<texPath>Storage/BundledSack1x1</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<drawRotated>false</drawRotated>
+		</graphicData>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+    </ThingDef>
+	
+		    <ThingDef ParentName="CustomThingBase">
+        <defName>Seti_loot_bundledsackbig</defName>
+        <label>big bundled sack</label>
+        <description>A cloth bundled sack, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <altitudeLayer>Building</altitudeLayer>
+        <drawGUIOverlay>true</drawGUIOverlay>
+        <useHitPoints>true</useHitPoints>
+        <tickerType>Normal</tickerType>
+        <category>Building</category>
+        <selectable>true</selectable>
+		<size>(2,2)</size>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+        </statBases>
+		<graphicData>
+			<texPath>Storage/BundledSack2x2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+			<drawRotated>false</drawRotated>
+		</graphicData>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+    </ThingDef>
+
+</Defs>

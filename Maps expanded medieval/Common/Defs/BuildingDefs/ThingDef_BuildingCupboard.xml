@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_CupboardBread</defName>
+        <label>bread cupboard</label>
+        <description>A cupboard with bread, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Storage/CupboardBread</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(5,3)</drawSize>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+        <statBases>
+           <Mass>20</Mass>
+        </statBases>
+		<size>(3,1)</size>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/CupboardEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(5,3)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+	    <ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_CupboardWine</defName>
+        <label>wine cupboard</label>
+        <description>A cupboard with wine, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Storage/CupboardDrug</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(5,3)</drawSize>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+		<size>(3,1)</size>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/CupboardEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(5,3)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+	    <ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_CupboardCheese</defName>
+        <label>cheese cupboard</label>
+        <description>A cupboard with cheese, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Storage/CupboardCheese</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(5,3)</drawSize>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+		<size>(3,1)</size>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/CupboardEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(5,3)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+</Defs>

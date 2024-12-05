@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_shelfmedic</defName>
+        <label>medical shelf</label>
+        <description>A shelf with medical supplies, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Storage/ShelfHerb</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.75,2.75)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+        </graphicData>
+		<size>(2,1)</size>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+		<costStuffCount>35</costStuffCount>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/ShelfEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.75,2.75)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+	    <ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_shelfemerald</defName>
+        <label>emerald shelf</label>
+        <description>A shelf with emeralds, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Buildings/Ruin/ShelfEmerald</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.75,2.75)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+        </graphicData>
+		<size>(2,1)</size>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+		<costStuffCount>35</costStuffCount>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/ShelfEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.75,2.75)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+		    <ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_shelfsapphire</defName>
+        <label>sapphire shelf</label>
+        <description>A shelf with sapphires, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Buildings/Ruin/ShelfSapphire</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.75,2.75)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+        </graphicData>
+		<size>(2,1)</size>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+		<costStuffCount>35</costStuffCount>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/ShelfEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.75,2.75)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+	<ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_shelfruby</defName>
+        <label>ruby shelf</label>
+        <description>A shelf with ruby, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Buildings/Ruin/ShelfRuby</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.75,2.75)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+		<size>(2,1)</size>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/ShelfEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.75,2.75)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+		<ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_shelfsilverware</defName>
+        <label>silverware shelf</label>
+        <description>A shelf with silverware, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Buildings/Ruin/ShelfBowl</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.75,2.75)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+		<size>(2,1)</size>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/ShelfEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.75,2.75)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+	<ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_shelfgoldware</defName>
+        <label>goldware shelf</label>
+        <description>A shelf with goldware, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Buildings/Ruin/ShelfBowlGold</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.75,2.75)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+		<size>(2,1)</size>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/ShelfEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.75,2.75)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+	<ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_shelfChaliceSilver</defName>
+        <label>silver chalice shelf</label>
+        <description>A shelf with silver chalices, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Buildings/Ruin/ShelfChaliceSilver</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.75,2.75)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+		<size>(2,1)</size>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/ShelfEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.75,2.75)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+	<ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_shelfgoldchalice</defName>
+        <label>gold chalice shelf</label>
+        <description>A shelf with gold chalices, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Buildings/Ruin/ShelfChaliceGold</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.75,2.75)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+		<size>(2,1)</size>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/ShelfEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.75,2.75)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+	<ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_shelfwine</defName>
+        <label>wine shelf</label>
+        <description>A shelf with wine, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Storage/ShelfFilledWine</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.75,2.75)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+		<size>(2,1)</size>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/ShelfEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.75,2.75)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+		<ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_shelffood</defName>
+        <label>food shelf</label>
+        <description>A shelf with food, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Buildings/Ruin/ShelfRations</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.75,2.75)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+		<size>(2,1)</size>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/ShelfEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.75,2.75)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+			<ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_shelfingot</defName>
+        <label>ingot shelf</label>
+        <description>A shelf with ingots, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Buildings/Ruin/ShelfIngotIron</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.75,2.75)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+		<size>(2,1)</size>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/ShelfEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.75,2.75)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+	<ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_shelfbook</defName>
+        <label>book shelf</label>
+        <description>A shelf with books, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Buildings/Ruin/ShelfBook</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.75,2.75)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+		<size>(2,1)</size>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/ShelfEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.75,2.75)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+		<ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_shelfherbs</defName>
+        <label>shelf (assorted herbs)</label>
+        <description>A shelf with herbs, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Storage/Alchemy/Shelf_AssortedHerbs</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.75,2.75)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+		<size>(2,1)</size>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/ShelfEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.75,2.75)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+			<ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_shelfgreenherbs</defName>
+        <label>shelf (green herbs)</label>
+        <description>A shelf with green herbs, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Storage/Alchemy/Shelf_GreenHerbs</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.75,2.75)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+		<size>(2,1)</size>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/ShelfEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.75,2.75)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+			<ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_shelfredherbs</defName>
+        <label>shelf (red herbs)</label>
+        <description>A shelf with red herbs, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Storage/Alchemy/Shelf_RedHerbs</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.75,2.75)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+		<size>(2,1)</size>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/ShelfEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.75,2.75)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+				<ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_shelfbattleelixir</defName>
+        <label>shelf (battle elixir)</label>
+        <description>A shelf with battle exlixirs, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Storage/Alchemy/Shelf_BattleElixir</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.75,2.75)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+		<size>(2,1)</size>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/ShelfEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.75,2.75)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+				<ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_shelfhappypowder</defName>
+        <label>shelf (happy powder)</label>
+        <description>A shelf with happy powder, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Storage/Alchemy/Shelf_HappyPowder</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.75,2.75)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+		<size>(2,1)</size>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/ShelfEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.75,2.75)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+					<ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_shelfvigorpill</defName>
+        <label>shelf (vigor pill)</label>
+        <description>A shelf with vigor pills, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Storage/Alchemy/Shelf_VigorPill</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.75,2.75)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+		<size>(2,1)</size>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/ShelfEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.75,2.75)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+						<ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_shelfassorteddrugsa</defName>
+        <label>shelf (assorted drugs a)</label>
+        <description>A shelf with assorted drugs, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Storage/Alchemy/Shelf_AssortedDrugsA</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.75,2.75)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+		<size>(2,1)</size>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/ShelfEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.75,2.75)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+	<ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_shelfstardust</defName>
+        <label>shelf (stardust)</label>
+        <description>A shelf with stardust, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Storage/Alchemy/Shelf_Stardust</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.75,2.75)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+		<size>(2,1)</size>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/ShelfEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.75,2.75)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+		<ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_shelfluhix</defName>
+        <label>shelf (luhix)</label>
+        <description>A shelf with luhix, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Storage/Alchemy/Shelf_Luhix</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.75,2.75)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+		<size>(2,1)</size>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/ShelfEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.75,2.75)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+			<ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_shelfparegoric</defName>
+        <label>shelf (paregoric)</label>
+        <description>A shelf with paregoric, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Storage/Alchemy/Shelf_Paregoric</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.75,2.75)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+		<size>(2,1)</size>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/ShelfEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.75,2.75)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+			<ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_shelfAssortedDrugsB</defName>
+        <label>shelf (assorted drugs b)</label>
+        <description>A shelf with assorted drugs, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+        <rotatable>false</rotatable>
+        <graphicData>
+			<texPath>Storage/Alchemy/Shelf_AssortedDrugsB</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.75,2.75)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+		<size>(2,1)</size>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Storage/ShelfEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.75,2.75)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+</Defs>

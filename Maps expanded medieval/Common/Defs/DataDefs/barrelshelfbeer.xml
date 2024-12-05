@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.LootDataDef>
+    <defName>barrelshelfbeer</defName>
+    <loots>
+      <li>
+        <dataName>barrelshelfbeer</dataName>
+        <chance>1</chance>
+        <things>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>25~25</count>
+            <thing>DankPyon_Ale</thing>
+          </li>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>25~25</count>
+            <thing>DankPyon_Cider</thing>
+          </li>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>25~25</count>
+            <thing>DankPyon_Mead</thing>
+          </li>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>25~25</count>
+            <thing>Beer</thing>
+          </li>
+        </things>
+      </li>
+    </loots>
+  </QuestEditor_Library.LootDataDef>
+</Defs>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_stallmeat</defName>
+        <label>stall (meat)</label>
+        <description>A stall with meat, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+		<size>(3,1)</size>
+        <graphicData>
+			<texPath>Tents/StallMeat</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(5,3)</drawSize>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Tents/StallEmpty_south</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(5,3)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+	    <ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_stalldairy</defName>
+        <label>stall (dairy)</label>
+        <description>A stall with dairy, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+		<size>(3,1)</size>
+        <graphicData>
+			<texPath>Tents/StallCheese</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(5,3)</drawSize>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Tents/StallEmpty_south</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(5,3)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+		    <ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_stallbread</defName>
+        <label>stall (bread)</label>
+        <description>A stall with bread, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+		<size>(3,1)</size>
+        <graphicData>
+			<texPath>Tents/StallBread</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(5,3)</drawSize>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Tents/StallEmpty_south</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(5,3)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+			    <ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_stallherb</defName>
+        <label>stall (herbs)</label>
+        <description>A stall with herbs, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+		<size>(3,1)</size>
+        <graphicData>
+			<texPath>Tents/StallHerb</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(5,3)</drawSize>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Tents/StallEmpty_south</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(5,3)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+				    <ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_stallMeleeWeapons</defName>
+        <label>stall (weapons)</label>
+        <description>A stall with melee weapons, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+		<size>(3,1)</size>
+        <graphicData>
+			<texPath>Tents/StallMeleeWeapons</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(5,3)</drawSize>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Tents/StallEmpty_south</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(5,3)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+		<ThingDef ParentName="CustomToolBase">
+        <defName>Seti_Loot_stallbow</defName>
+        <label>stall (bows)</label>
+        <description>A stall with bows, can be looted.</description>
+        <thingClass>QuestEditor_Library.LootBox</thingClass>
+        <category>Building</category>
+		<size>(3,1)</size>
+        <graphicData>
+			<texPath>Tents/StallBow</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(5,3)</drawSize>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+        <statBases>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <expandHomeArea>true</expandHomeArea>
+            <claimable>true</claimable>
+        </building>
+        <modExtensions>
+            <li Class="QuestEditor_Library.ModExtension_CustomThing">
+                <openedGraphicdata>
+					<texPath>Tents/StallEmpty_south</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(5,3)</drawSize>
+                </openedGraphicdata>
+            </li>
+        </modExtensions>
+    </ThingDef>
+</Defs>

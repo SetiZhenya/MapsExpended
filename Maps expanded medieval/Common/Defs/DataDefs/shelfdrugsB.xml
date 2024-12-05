@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.LootDataDef>
+    <defName>shelfdrugsB</defName>
+    <loots>
+      <li>
+        <dataName>shelfdrugsB</dataName>
+        <chance>1</chance>
+        <things>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>10~10</count>
+            <thing>DankPyon_Stardust</thing>
+          </li>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>10~10</count>
+            <thing>DankPyon_Luhix</thing>
+          </li>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>10~10</count>
+            <thing>DankPyon_Paregoric</thing>
+          </li>
+        </things>
+      </li>
+    </loots>
+  </QuestEditor_Library.LootDataDef>
+</Defs>

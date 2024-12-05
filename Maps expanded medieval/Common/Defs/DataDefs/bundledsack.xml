@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.LootDataDef>
+    <defName>bundledsack</defName>
+    <loots>
+      <li>
+        <dataName>bandledsack</dataName>
+        <chance>1</chance>
+        <things>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>25~25</count>
+            <thing>MealSurvivalPack</thing>
+          </li>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>5~5</count>
+            <thing>DankPyon_HerbalExtract</thing>
+          </li>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>10~10</count>
+            <thing>DankPyon_Ale</thing>
+          </li>
+        </things>
+      </li>
+    </loots>
+  </QuestEditor_Library.LootDataDef>
+</Defs>

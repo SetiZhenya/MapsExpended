@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.LootDataDef>
+    <defName>vegshelf</defName>
+    <loots>
+      <li>
+        <dataName>vegshelf</dataName>
+        <chance>1</chance>
+        <things>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>75~75</count>
+            <thing>DankPyon_RawCarrots</thing>
+          </li>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>75~75</count>
+            <thing>DankPyon_RawCabbages</thing>
+          </li>
+          <li Class="QuestEditor_Library.CQFThingDefCount">
+            <count>75~75</count>
+            <thing>DankPyon_RawPumpkins</thing>
+          </li>
+        </things>
+      </li>
+    </loots>
+  </QuestEditor_Library.LootDataDef>
+</Defs>
